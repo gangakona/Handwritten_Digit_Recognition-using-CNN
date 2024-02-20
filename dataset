@@ -1,0 +1,7 @@
+#dataset from keras
+mnist_dataset = tf.keras.datasets.mnist
+(x_train, y_train), (x_test, y_test) = mnist_dataset.load_data()
+# or download the dataset from keras
+# Downloading the datasets using wget
+!wget https://nkb-backend-otg-media-static.s3.ap-south-1.amazonaws.com/otg_prod/media/Tech_4.0/AI_ML/Datasets/kaggle_mnist/train.csv
+!wget https://nkb-backend-otg-media-static.s3.ap-south-1.amazonaws.com/otg_prod/media/Tech_4.0/AI_ML/Datasets/kaggle_mnist/test.csv
