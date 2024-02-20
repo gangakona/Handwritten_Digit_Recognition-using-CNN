@@ -1,0 +1,43 @@
+model = tf.keras.models.Sequential()
+
+model.add(tf.keras.layers.Convolution2D(
+    input_shape=(IMAGE_WIDTH, IMAGE_HEIGHT, IMAGE_CHANNELS),
+    kernel_size=5,
+    filters=8,
+    strides=1,
+    activation=tf.keras.activations.relu,
+    kernel_initializer=tf.keras.initializers.VarianceScaling()
+))
+
+model.add(tf.keras.layers.MaxPooling2D(
+    pool_size=(2, 2),
+    strides=(2, 2)
+))
+
+model.add(tf.keras.layers.Convolution2D(
+    kernel_size=5,
+    filters=16,
+    strides=1,
+    activation=tf.keras.activations.relu,
+    kernel_initializer=tf.keras.initializers.VarianceScaling()
+))
+
+model.add(tf.keras.layers.MaxPooling2D(
+    pool_size=(2, 2),
+    strides=(2, 2)
+))
+
+model.add(tf.keras.layers.Flatten())
+
+model.add(tf.keras.layers.Dense(
+    units=128,
+    activation=tf.keras.activations.relu
+));
+
+model.add(tf.keras.layers.Dropout(0.2))
+
+model.add(tf.keras.layers.Dense(
+    units=10,
+    activation=tf.keras.activations.softmax,
+    kernel_initializer=tf.keras.initializers.VarianceScaling()
+))
