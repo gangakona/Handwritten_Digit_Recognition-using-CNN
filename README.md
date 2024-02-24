@@ -24,5 +24,5 @@ The las layer will be a [Dense layer](https://www.tensorflow.org/api_docs/python
 
 ![](https://1drv.ms/i/c/4230590ad987414b/EUk0uS1s3SVPvpPNawhzMkEB2USuhGzZduVcueGcBi2XSQ?e=btzbiy)
 
-## Predictions
-![] (https://1drv.ms/i/c/4230590ad987414b/EXJxysC9M99CnjV0cuXLl5gBIQ_ng6uTveie8GqeS-1d0w?e=CgnIlV)
+
+![](https://1drv.ms/i/c/4230590ad987414b/EXJxysC9M99CnjV0cuXLl5gBIQ_ng6uTveie8GqeS-1d0w?e=CgnIlV)
