@@ -23,5 +23,5 @@ After that we will use [Flatten](https://www.tensorflow.org/api_docs/python/tf/k
 The las layer will be a [Dense layer](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dense?version=stable) with 10 [Softmax](https://www.tensorflow.org/api_docs/python/tf/keras/activations/softmax?version=stable) outputs. The output represents the network guess. The 0-th output represents a probability that the input digit is 0, the 1-st output represents a probability that the input digit is 1 and so on..
 
 ![Screenshot (2)](https://github.com/gangakona/Handwritten_Digit_Recognition-using-CNN/assets/110378442/6b0e3c8a-f336-4ac9-8703-40b17f98a76f)
-
-![](https://1drv.ms/i/c/4230590ad987414b/EXJxysC9M99CnjV0cuXLl5gBIQ_ng6uTveie8GqeS-1d0w?e=CgnIlV)
+## Predictions
+![Screenshot (4)](https://github.com/gangakona/Handwritten_Digit_Recognition-using-CNN/assets/110378442/41eb5f0d-5ac1-485d-a1c6-f3e7a6f438c6)
